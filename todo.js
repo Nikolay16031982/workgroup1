@@ -4,14 +4,14 @@ window.onload = ()=>{
 document.getElementById("addButton").onclick = ()=>{
 	
 let val = document.getElementById("inText").value;		
-		toDo = addToDo(toDo, val);
-		for (let i=0;i<toDo.length;++i)
-		alert(toDo[i].name);	
+		toDoList = addToDo(toDoList, val);
+		for (let i=0;i<toDoList.length;++i)
+		alert(toDoList[i].name);	
  };
  
 document.getElementById("delId1").onclick = ()=>{	
 		
-		toDo = deleteToDo(toDo, 1);	
+		toDoList = deleteToDo(toDoList, 1);	
  }; 
 };
 
