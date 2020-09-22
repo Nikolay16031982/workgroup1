@@ -15,8 +15,6 @@ document.getElementById("delId1").onclick = ()=>{
  }; 
 };
 
-
-
 let toDoList = [
   { id: 1, status: false, name: "Выучить JS" },
   { id: 2, status: false, name: "Выучить CSS" },
